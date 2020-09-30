@@ -1,21 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
-    background-color: lightblue;
+  padding: 30px;
+  margin:10px;
+  background:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+
 }
-body{
-    background-image:url("NINTCHDBPICT000565727127.jpg");
-    text-align:center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-  }
-.log img{
-  float: left;
-  width: 46px;
-  height: 44px;
-  background: url(logo.png) 0;
+p{
+  color: #111;
+  font-size: 1em;
 }
+.logoimg{
+  float: center;
+  width: 200px;
+  height: 150px;
 }
+.logoimg1{
+  float: right;
+  width: 200px;
+  height: 150px;
+}
+
 .container{
+  background-image: url("containerBG.jpg");
     margin: 10px;
     padding: 10px;
     border-color: black;
@@ -28,10 +41,9 @@ body{
 .headerStyle{
     margin: 10px;
     padding: 10px;
-    border-color:black;
     border-style: ridge;
     border-radius: 10px;
-    background-color: none(108, 201, 238, 0.855);
+    background-color: #659DBD;
     text-align: center;
     align-content: center;
 }
@@ -39,32 +51,39 @@ body{
     border: 2px;
     border-radius: 10px;
 }
+.footnavStyle{
+  float: right;
+  margin-left: 300px;
+}
+.centerfooter{
+  float: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #DAAD86;
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #FBEEC1;
   }
   
   .active {
-    background-color: #545754;
+    background-color: #8D8741;
   }
  
 .asideStyle{
@@ -87,18 +106,44 @@ ul {
 }
 .footerStyle{
     margin: 10px;
+    margin-top: 50px;
     padding: 10px;
     border-color: black;
     border-style: ridge;
     border-radius: 10px;
-    background-color:  rgba(33, 145, 189, 0.855);
+    background-color: #659DBD;
+    
+}
+.box1{
+  background-color: #DAAD86;
+
+}
+.box2{
+  background-color: #DAAD86;
+}
+.box3{
+  background-color: #DAAD86;
 }
 .articleStyle{
-    background-color:  none(33, 145, 189, 0.855);
+    background-color:  white;
     border-color: black;
     border-style: ridge;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-}  
- 
+} 
+
+ .leftfooter{
+   float:left ;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #DAAD86;
+ }
+ .centerfoote{
+   float:center;
+   border: 1px;
+   margin: 1px;
+   padding: 1px;
+ } 
