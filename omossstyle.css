@@ -1,23 +1,32 @@
-body{
-    background-color: lightblue;
+*{
+  box-sizing: border-box;
 }
+
 body{
-    background-image:url(NINTCHDBPICT000565727127.jpg);
-    text-align:center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-.log img{
-  list-style-type:left ;
-  margin: 0%;
-  padding: 10%;
-    float: left;
-  width: 46px;
-  height: 44px;
-  background: url(logo.png) 0 ;
+  padding: 30px;
+  margin:10px;
+  background:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+
 }
+p{
+  color: #111;
+}
+.logoimg{
+  float: center;
+  width: 200px;
+  height: 150px;
+}
+.logoimg1{
+  float: right;
+  width: 200px;
+  height: 150px;
+}
+
 .container{
+  background-image: url("containerBG.png");
     margin: 10px;
     padding: 10px;
     border-color: black;
@@ -30,10 +39,9 @@ body{
 .headerStyle{
     margin: 10px;
     padding: 10px;
-    border-color:black;
     border-style: ridge;
     border-radius: 10px;
-    background-color: none(108, 201, 238, 0.855);
+    background-color: #659DBD;
     text-align: center;
     align-content: center;
 }
@@ -41,65 +49,103 @@ body{
     border: 2px;
     border-radius: 10px;
 }
+.footnavStyle{
+  float: right;
+
+}
+.centerfooter{
+  float: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #DAAD86;
   }
-
+  
   li {
-    float: left;
+    float: right;
   }
-
+  
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-
+  
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #FBEEC1;
   }
-
+  
   .active {
-    background-color: #545754;
+    background-color: #8D8741;
   }
+ 
 .asideStyle{
-    margin: 20px;
     float: right;
-    width:18%;
-    margin:10px;
-    padding: 10px;
+    width:60%;
+    margin:20px;
+    padding: 20px;
     border-color: black;
     border-style: ridge;
     border-radius: 10px;
 }
 .sectionStyle{
-    width: 70px;
-    margin:10px;
-    margin:50px;
-    padding:30px;
+    width: 30%;
+    margin: 20px;
+    margin: 20px;
+    padding: 5px;
     border-color: black;
-    border-style:ridge ;
+    border-style: ridge;
     border-radius: 10px;
+    
 }
 .footerStyle{
     margin: 10px;
+    margin-top: 100px;
     padding: 10px;
     border-color: black;
     border-style: ridge;
     border-radius: 10px;
-    background-color:  rgba(33, 145, 189, 0.855);
+    background-color: #659DBD;
+    
 }
 .articleStyle{
-    background-color:  rgba(33, 145, 189, 0.855);
+    background-color:  white;
     border-color: black;
     border-style: ridge;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+} 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ .leftfooter{
+   float:left ;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #DAAD86;
+ }
+ .centerfoote{
+   float:center;
+   border: 1px;
+   margin: 1px;
+   padding: 1px;
+ } 
