@@ -21,16 +21,16 @@ Vi kommer göra en multi-page hemsida med fyra sidor.
 De som kommer
 ansvara för varje enskild sida är:
 
-Hem - Krille
-Om oss - Madde
-Kontakt - Baran
+Home - Krille
 Case - Leffe
+About - Madde
+Contact - Baran
 
-Typsnittet vi kommer använda oss av är Nobile.
-Bakgrundsfärg för hemsidan är vit.
+Typsnittet vi kommer använda oss av är Nobile(Century?).
+Bakgrundsfärg för hemsidan är vit(Backgroundbased?-Black/white).
 
-Brödtext har färgen svart och får färgen #659DBD om man klickar på en länk
+Brödtext har färgen svart och får färgen #659DBD(Redacted?) om man klickar på en länk
 Text ovanpå bakgrundsfärg har färgen vit
-Header och footer kommer ha färgen #659DBD
+Header och footer kommer ha färgen #659DBD(Redacted?)
 Markeringar för att visa vilken länk man hovrar över har färgen #FBEEC1
-Logga finns i vår discordkanal och även i vårt repo.
+Logga finns i vår discordkanal och även i vårt repo.(Replaced with new logo)
