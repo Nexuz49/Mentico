@@ -3,16 +3,16 @@
 }
 
 body{
-  padding: 30px;
-  margin:10px;
-  background:white;
+  padding: 50;
+  max-resolution: 50px;px;
+  background-color :black;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bolder;
-
 }
 p{
   color: #111;
+
 }
 .logoimg{
   float: center;
@@ -24,33 +24,13 @@ p{
   width: 200px;
   height: 150px;
 }
-
-.container{
-  background-image: url("../img/containerBG.png");
-    margin: 10px;
-    padding: 10px;
-    border-color: black;
-    border-style: ridge;
-    border-radius: 10px;
-    background-color: none(146, 218, 247, 0.855);
-    text-align: left;
-    align-content: center;
-}
-.headerStyle{
-    margin: 10px;
-    padding: 10px;
-    border-style: ridge;
-    border-radius: 10px;
-    background-color: #659DBD;
-    text-align: center;
-    align-content: center;
-}
 .navStyle{
     border: 2px;
-    border-radius: 10px;
+    border-radius: 8px;
+clear:left;
 }
 .footnavStyle{
-  float: right;
+  float: left;
 
 }
 .centerfooter{
@@ -61,7 +41,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #DAAD86;
+    background-color:black;
   }
   
   li {
@@ -70,7 +50,7 @@ ul {
   
   li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -101,6 +81,7 @@ ul {
     border-color: black;
     border-style: ridge;
     border-radius: 10px;
+    clear:right;
     
 }
 .footerStyle{
@@ -149,3 +130,6 @@ ul {
    margin: 1px;
    padding: 1px;
  } 
+
+
+
