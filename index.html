@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentico</title>
+  <link rel="stylesheet" href="case.css">
+  <link rel="stylesheet" href="slider.css">
 </head>
+
 <body>
+
+  <!-- Header -->
+
+  <header>
+    <div class="main">
+      <div class="logo">
+        <img src="img/m-logo-clipped.png">
+      </div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li class="active"><a href="case.html">Case</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- #Header -->
+
+  <!-- Banner -->
+
+  <section class="banner">
+      <div class="title">
+        <h1>Mentico</h1>
+      </div>
+
+      <div class="button">
+        <a href="contact.html" class="btn">Consultation Contact</a>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+  </section>
+
+  <!-- #Banner -->
+
+    <!-- Slider -->
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="img/m-case-flex1.jpg" style="width:100%">
+        <div class="text">Travel Geo</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="img/m-case-flex2.jpg" style="width:100%">
+        <div class="text">Native Union</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="img/m-case-flex3.jpg" style="width:100%">
+        <div class="text">Infinity</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="img/m-case-flex4.jpg" style="width:100%">
+        <div class="text">SportFIT</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="img/m-case-flex5.jpg" style="width:100%">
+        <div class="text">Symtec</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="img/m-case-flex6.jpg" style="width:100%">
+        <div class="text">Cryptocurrency Landing</div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+        <span class="dot" onclick="currentSlide(5)"></span> 
+        <span class="dot" onclick="currentSlide(6)"></span> 
+      </div>
+
+    <!-- #Slider -->
+
+    <!-- Footer -->
     
+    <footer class="footerStyle">
+      <address>
+        <P>Mentico - Adress: USA - Silicon Valley, Falcon Row, 4th Avenue. </p><a href="Email:">info@mentico.com</a>
+        <p>Telephone: +46101101010</p>
+      </address>
+    </footer>
+
+    <!-- #Footer -->
+
+    <script src="slider.js"></script>
+
 </body>
+
 </html>
